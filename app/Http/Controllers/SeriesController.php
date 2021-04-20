@@ -9,8 +9,13 @@ class SeriesController extends Controller
 
     public function index()
     {
+        $series = [
+            "Jumpers",
+            "Arquivo X",
+            "Friends"
+        ];
 
-        return "Foi...";
+        return view('series.index', ["series" => $series]);
 
     }
 
