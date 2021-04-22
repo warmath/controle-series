@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('cabecalho')
-        <h1>Séries</h1>
+@section('titulo')
+        Séries
 @endsection
 
 @section('conteudo')
